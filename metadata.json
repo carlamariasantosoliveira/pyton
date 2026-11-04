@@ -1,0 +1,6 @@
+{
+  "name": "TIC 7º Ano: Introdução à Programação & Python",
+  "description": "Plataforma interativa de aprendizagem de TIC para alunos do 7º ano: conceitos de computador, algoritmos, fluxogramas, Python e jogos didáticos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
