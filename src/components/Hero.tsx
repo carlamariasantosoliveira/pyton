@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionTab } from '../types';
-import { BookOpen, Gamepad2, ArrowRight, Laptop, Sparkles } from 'lucide-react';
+import { BookOpen, Gamepad2, ArrowRight, Laptop, Sparkles, FileDown } from 'lucide-react';
 
 interface HeroProps {
   onSelectTab: (tab: SectionTab) => void;
@@ -54,6 +54,17 @@ export const Hero: React.FC<HeroProps> = ({ onSelectTab }) => {
             <Laptop className="w-5 h-5 text-indigo-400" />
             <span>23 Exercícios Resolvidos</span>
           </button>
+
+          <a
+            href="./assets/aistudio/Apontamentos_Python_8aaa311c.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-3 bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white font-medium rounded-xl border border-slate-700 transition-colors text-sm sm:text-base"
+            title="Descarregar Apontamentos em PDF"
+          >
+            <FileDown className="w-4 h-4 text-rose-400" />
+            <span>Ver PDF Original</span>
+          </a>
         </div>
 
         {/* Topic Pill Grid */}
